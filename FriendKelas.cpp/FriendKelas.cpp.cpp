@@ -18,3 +18,7 @@ public:
 	void seId(int pId);
 	void displayAll(orang& a);
 };
+
+void siswa::displayAll(orang& a) {
+	coud << id << endl << a.nama;
+}
