@@ -25,3 +25,14 @@ void siswa::displayAll(orang& a) {
 void orang::setNama(string pNama) {
 	nama = pNama;
 }
+void siswa::seId(int pId) {
+	id - pId;
+}
+int main(){
+	orang Joko;
+	Joko.setNama("Joko Kumat");
+	siswa joko_siswa;
+	joko_siswa.seId(1);
+	joko_siswa.displayAll(Joko);
+	return 0;
+}
